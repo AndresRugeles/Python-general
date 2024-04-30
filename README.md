@@ -50,3 +50,17 @@ Explicación de los elementos fundamentales del código
     * Permite generar un  nuevo DataSet basada en otro y se filtran ciertos elementos de acuerdo con la columna especificada y los valores de esta.
 * DataSet_New_filtrado = DataSet_New[['column_x', 'column_y']]
     * Permite seleccionar ciertas columnas de un DataSet y generar uno nuevo.
+
+## BIBLITECA DE PANDAS (Panel Data)
+Biblioteca usada ampliamente para el **Análisis de datos**. Proporciona estructuras flexibles y eficientes para trabajar con **datos estructurados**. Su nombre viene de referise a datos multidimensionales estructurados en forma de paneles. A continuación, algunas características:
+
+1. **DataFrame**: tabla bidimensional con filas y columnas etiquetadas, que son similiares a hojas de cálculo o tablas de bases de datos. Permite hacer **operaciones** como: filtrado, selección, agrupación y manipulación de datos de forma fácil y eficiente.
+1. **Series**: matriz unidimensional etiquetada. Usadas para representar una columna individual o una fila de un DataFrame.
+1. **Funciones para limpieza y manipulación de datos**: incluye funciones para manejar valores nulos, eliminar duplicados, cambiar el tipo de datos.
+1. **Operaciones de indexación y selección avanzadas**: incluye indexación booleana, por posición, por etiquetra y selección basada en condiciones.
+1. **Integración con otras bibliotecas**: como Numpy, Matplotlib y Scikit-learn.
+
+### Proceso para configurar "pandas"
+* pip install pandas: Instalar pandas de ser necesario.
+* import pandas as pd: Importar la biblioteca de pandas.
+* print(pd.__version__): imprimir la versión de pandas que está instalada.
