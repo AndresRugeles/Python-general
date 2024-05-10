@@ -64,3 +64,5 @@ Biblioteca usada ampliamente para el **Análisis de datos**. Proporciona estruct
 * pip install pandas: Instalar pandas de ser necesario.
 * import pandas as pd: Importar la biblioteca de pandas.
 * print(pd.__version__): imprimir la versión de pandas que está instalada.
+
+Consulta de Bibliografía: https://www.w3schools.com/python/pandas/default.asp
