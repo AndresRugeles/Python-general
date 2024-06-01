@@ -66,3 +66,68 @@ Biblioteca usada ampliamente para el **Análisis de datos**. Proporciona estruct
 * print(pd.__version__): imprimir la versión de pandas que está instalada.
 
 Consulta de Bibliografía: https://www.w3schools.com/python/pandas/default.asp
+
+
+## EDA
+Por sus siglas en inglés representa el "Exploratory Data Analysis" o "Análisis exploratorio de datos". Su función es la de examinar los datos previamente a la aplicación de técnicas estadísticas, obteniendo también una información de la relación existente entre las variables analizadas. En resumen, se puede:
+
+* Organizar y preparar datos.
+* Detrectar fallos en el diseño y recolección de datos.
+* Detectar datos ausentes o atípicos.
+
+### Utilidades de EDA
+Facilita responder preguntas tales como:
+
+* ¿Si existen sesgo en los datos recolectados?
+* ¿Hay errores en la codificación de datos?
+* ¿Cómo se sintetiza y presenta la información contenida en un conjunto de datos?
+* ¿existen datos atípicos **(outliers)** y cómo tratarlos?
+* ¿Hay datos ausentes **(missing)**, si tienen algún patrón y como tratarlos?
+
+### Etapas del EDA
+
+#### Etapa 1
+1. Preparar los datos para poder aplicar técnicas estadísticas.
+1. Graficar los datos por variable o multivariable y así analizar datos estadísticos para cuantificar datos.
+1. Analizar correlación entre las variables y dependencias.
+
+#### Etapa 2
+1. Evaluar algunos supuestos sobre la distribución de las variables asimétricas, formas, etc.
+1. Identificar los datos **outliers** y que impacto pueden tener en el análisis estadístico.
+1. De igual forma, determinar el impacto de los **missing**.
+
+### Operaciones principales
+* Combinar conjunto de datos de dos o mas archivos distintos.
+* Generar subconjunto de datos.
+* Dividir el archivo de datos en varias partes.
+* Transformar variables.
+* Filtrar y ordenar el DataSet
+* Agregar nuevos datos y variables a partir de los existentes.
+* Eliminar datos y variables.
+* Guardar datos y resultados de los análisis.
+
+### Correlaciones y dependencias
+Determinar que tan relacionadas están las variables que se están usando.
+
+La correlación **toma valores entre -1 y 1**, donde:
+
+* Entre más cerca a 1, es más fuerte la relación lineal directa entre las variables.
+* Entre más cerca a -1, más fuerte es la relación pero en este caso inversa.
+* Si el valor se acerca a 0, no hay relación lineal entre variables.
+
+👉 La correlación no es, ni implica, causalidad.
+
+### Distribuciones de las variables
+Hace referencia a las **medidas de forma**, que estudian las características de la distribución de probabilidades observadas. Se descantan principalmente:
+
+#### Simetría
+Una variable es simétrica si los valores equidistantes de la media son iguales, y donde la media, la moda y la mediana dan como resultado valores muy similares.
+
+En caso de que no se simétrica, se estaría hablando de Asimétrica izquierda o negativa y asimétrica derecha o positiva
+
+#### Curtosis
+Mide el grado de apuntamiento o achatamiento de la distribución de frecuencia. Es decir, ayuda a entener "cuán empinada está la curva". Existen diferentes tipos de curtosis como:
+
+* Distribución platicúrtica (valor máximo bajo)
+* Distribución Lepticúrtica (valor máximo alto)
+* Distribución Mesocúrtica (valor máximo medio)
