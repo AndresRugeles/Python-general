@@ -131,3 +131,49 @@ Mide el grado de apuntamiento o achatamiento de la distribución de frecuencia. 
 * Distribución platicúrtica (valor máximo bajo)
 * Distribución Lepticúrtica (valor máximo alto)
 * Distribución Mesocúrtica (valor máximo medio)
+
+
+### BIBLIOTECAS NUMPY & SCIPY
+
+#### Biblioteca Numpy
+
+**Numpy** se usa para operaciones numéricas en arreglos multidimensionales o matrices. Sus características principales son:
+
+* Operaciones matemáticas y estadísticas: incluye funciones trigonométricas, exponenciales, álgebra lineal, funciones estadísticas descriptivas.
+* Indexación y segmentación avanzada: facilita la selección y manipulación de datos en matrices de gran tamaño.
+* Broadcasting: son operaciones entre arreglos de diferentes formas y tamaños, simplificando escritura de código y mejora el rendimiento en comparación con operaciones tradicionales de Bucles.
+* Integración con otras bibliotecas: SciPy, Pandas, Matplotlib.
+
+#### Biblioteca Scipy
+
+Se construye sobre Numpy y tiene una amplia ganma de algorítmos y herramientas para la computación científica y técnica. Algunas características son:
+
+* Módulos especialezados: incluye módulos para computación científica, optimización, ´álgebra lineal, interpolación, procesamiento de señales, procesamiento de imágenes, estadística, integración numérica.
+* Eficiencia y rendimiento
+* Integración con otras bibliotecas
+* Licencia de código abierto
+
+
+## Regresión Lineal
+Consiten en predecir el valor de una variable objetivo o dependiente que generalmente se denomina (y), dados los valores de un vector de variables independientes o regresoras descritas como (x), todo esto a partir de una función lineal que represente la relación entre las variables.
+
+### Métricas de un modelo de regresión
+1. **Error absoluto Medio (MAE - Mean Absolute Error)**: es la diferencia absoluta entre las predicciones y los valores reales.
+1. **Error cuadrático medio (MSE - Mean squared Error)**: es la media de cuadrados de las diferencias entre las predicciones y los valores reales.
+1. **Raiz del error cuadrático medio (RMSE - Root mean Squared error)**: proporciona una medida del error en la misma unidad que los datos originales.
+1. **Error porcentual absoluto medio (MAPE - Mean absolute Percentage Error)**: es el promedio de los porcentajes absolutos de las diferencias entre las predicciones y los valores reales en relación con los valores reales. Es útil para evaluar la precisión en términos porcentuales.
+1. **Coeficiente de determinación R2 (R-squared)**: representa la proporción de la variabnza en la variable dependiente que es predecible a partir de las variables independientes. Cuanto mas cercano a 1 sea R2, mejor se ajusta el modelo a los datos.  
+
+https://economipedia.com/definiciones/modelo-de-regresion.html#:~:text=Un%20modelo%20de%20regresi%c3%B3n%20es,explicativas%20o%20independientes%20(X)
+
+## Machine Learning ML
+Disciplina derivada de la inteligencia artificial y se encarga de generar modelos capaced de aprender, es decir, analizar muchos datos y extraer lo patrones o insight de esos datos. Se trata de reducir la intervención humana ya que el modelo puede predicr o clasificar automáticamente.
+
+## Tipos de aprendizaje en ML
+1. Aprendizaje supervisado.
+    
+    1. Problemas de clasificación: relacionado a predecir la variable **target** o **respuesta** que debe ser de tipo categórica.
+    1. Problemas de regresión: En lugar de predecir variables categóricas, se predicen variables numéricas, de tipo cuantitativo.
+2. Aprendizaje no supervisado.
+3. Aprendizaje por refuerzo.
+
